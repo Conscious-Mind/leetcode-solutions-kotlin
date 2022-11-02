@@ -1,8 +1,11 @@
 package prefix_sum
 
 fun main() {
+    val start = System.currentTimeMillis()
     val nums = intArrayOf(1, 2, 3, 4)
     println(runningSum(nums).contentToString())
+    println((System.currentTimeMillis() - start))
+
 }
 
 //private fun runningSum(nums: IntArray): IntArray {

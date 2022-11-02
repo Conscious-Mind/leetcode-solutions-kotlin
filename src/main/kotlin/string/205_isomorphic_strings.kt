@@ -1,9 +1,12 @@
 package string
 
 fun main() {
+
+    val start = System.currentTimeMillis()
     val string1 = "egg"
     val string2 = "add"
     println(isIsomorphic(string1, string2))
+    println((System.currentTimeMillis() - start))
 }
 
 //private fun isIsomorphic(s: String, t: String): Boolean {

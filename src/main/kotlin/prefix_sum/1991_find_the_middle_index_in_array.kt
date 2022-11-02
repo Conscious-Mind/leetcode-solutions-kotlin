@@ -1,8 +1,10 @@
 package prefix_sum
 
 fun main() {
+    val start = System.currentTimeMillis()
     val nums = intArrayOf(1, 7, 3, 6, 5, 6)
     println(findMiddleIndex(nums))
+    println((System.currentTimeMillis() - start))
 }
 
 private fun findMiddleIndex(nums: IntArray): Int {
